@@ -9,10 +9,9 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "vite": "^2.0.0-beta.59"
+    "vite": "^2.0.0-beta.60"
   },
   "dependencies": {
-    "@surma/rollup-plugin-off-main-thread": "2.0.0",
     "extra-scalloped-border": "1.1.3"
   }
 }

@@ -2,24 +2,10 @@
 # yarn lockfile v1
 
 
-"@surma/rollup-plugin-off-main-thread@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@surma/rollup-plugin-off-main-thread/-/rollup-plugin-off-main-thread-2.0.0.tgz#76351505c9e9f588fb54358c98e5a606a06cc22b"
-  integrity sha512-AdNKppDg2Pnd95+risS3/6zOvlezTYqe50j4ZIvx9OT12GCKz1mblEnbdFFS3IwUV0kxkBcayu/vN18flDn9TQ==
-  dependencies:
-    ejs "^2.6.1"
-    magic-string "^0.25.0"
-    tippex "^3.0.0"
-
 colorette@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.1.tgz#4d0b921325c14faf92633086a536db6e89564b1b"
   integrity sha512-puCDz0CzydiSYOrnXpz/PKd69zRrribezjtE9yd4zvytoRc8+RY/KJPvtPFKZS3E3wP6neGyMe0vOTlHO5L3Pw==
-
-ejs@^2.6.1:
-  version "2.7.4"
-  resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.7.4.tgz#48661287573dcc53e366c7a1ae52c3a120eec9ba"
-  integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 esbuild@^0.8.34:
   version "0.8.37"
@@ -54,13 +40,6 @@ is-core-module@^2.1.0:
   integrity sha512-XRAfAdyyY5F5cOXn7hYQDqh2Xmii+DEfIcQGxK/uNwMHhIkPWO0g8msXcbzLe+MpGoR951MlqM/2iIlU4vKDdQ==
   dependencies:
     has "^1.0.3"
-
-magic-string@^0.25.0:
-  version "0.25.7"
-  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.25.7.tgz#3f497d6fd34c669c6798dcb821f2ef31f5445051"
-  integrity sha512-4CrMT5DOHTDk4HYDlzmwu4FVCcIYI8gauveasrdCu2IKIFOJ3f0v/8MDGJCDL9oD2ppz/Av1b0Nj345H9M+XIA==
-  dependencies:
-    sourcemap-codec "^1.4.4"
 
 nanoid@^3.1.20:
   version "3.1.20"
@@ -101,20 +80,10 @@ source-map@^0.6.1:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-sourcemap-codec@^1.4.4:
-  version "1.4.8"
-  resolved "https://registry.yarnpkg.com/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
-  integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
-
-tippex@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/tippex/-/tippex-3.0.0.tgz#b17609a27ceaffe0797b387393fd99878e4d7ea9"
-  integrity sha1-sXYJonzq/+B5ezhzk/2Zh45Nfqk=
-
-vite@^2.0.0-beta.59:
-  version "2.0.0-beta.59"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.0.0-beta.59.tgz#e01a795aebedc0cb44d653c33b72ab7b831057ae"
-  integrity sha512-tlxEPFpVI1wV+vk+t/ypwBZfNmxKcorok8YF82MrQIqCDeRXnHvp33oWPIsRrO0V7UdnnlkKQOJJiIi3AIUFOA==
+vite@^2.0.0-beta.60:
+  version "2.0.0-beta.60"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.0.0-beta.60.tgz#160d69968f29d05e0a4a22a6cc690d997fd793ea"
+  integrity sha512-B3qaJrSp0pbgjv2ROA7/0KRgJFs+QhH43OTo6Hau/dGopKotZFuE04FBRCjJ3+h0ePEH4DUG7+e2tUUgkywb0A==
   dependencies:
     esbuild "^0.8.34"
     postcss "^8.2.1"
